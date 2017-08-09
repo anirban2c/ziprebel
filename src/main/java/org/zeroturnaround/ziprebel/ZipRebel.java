@@ -72,6 +72,7 @@ public class ZipRebel {
     }
     catch (IOException e) {
       throw new RuntimeException("Cannot compress file: " + path, e);
+	  System.out.println("Exception" + e);
     }
   }
 
